@@ -1,0 +1,86 @@
+<html>
+	<body>
+			<p>
+		<h2><b> Dirección IP:</b></h2> <blockquote> Las direcciones IP (IP es un acrónimo para Internet Protocol) son un número único e irrepetible con el cual se identifica una cmputadora conectada a una red que corre el protocolo IP. </blockquote>
+			</p>
+			<p>
+		<p>	<h2> Tipos de Direcciones IP:</h2> <blockquote>existen las privadas y las públicas</blockquote></p>
+			</p>
+				<blockquote><h3><b>Privadas:</b></h3>
+					<blockquote><p>
+					<br>utilizada para identificar un dispositivo dentro de una red privada, por ejemplo, la que creas al conectar tu smartphone, la impresora, la tablet, y la laptop a una misma red de WiFi en tu hogar, o bien, las redes utilizadas a nivel empresarial.</br>
+					<br><b>Clase A:</b> De 10.0.0.0 a 10.255.255.255, que son utilizadas generalmente para grandes redes privadas, por ejemplo de alguna empresa trasnacional.</br>
+					<br><b>Clase B:</b> De 172.16.0.0 a 172.31.255.255, que son usadas para redes medianas, como de alguna empresa local, escuela o universidad.</br>
+					<br><b>Clase C:</b> 192.168.0.0 a 192.168.255.255, que son usadas para las redes más pequeñas, como redes domésticas.</br>
+					</blockquote></p>
+				</blockquote>
+				
+				<p>
+				<blockquote> 
+				<b>Publicas:</b>
+					<blockquote>
+						<b>Fijas:</b> En este caso, la dirección IP asignada a un dispositivo será de por vida, es decir, jamás cambiará, y esto aplica tanto para direcciones IP públicas como privadas.
+						A pesar de que son de mayor confianza y estabilidad, y te permiten una mayor velocidad de descarga, llegan a presentar ciertos inconvenientes, empezando por la vulnerabilidad. Al ser estáticas, los hackers tienen más tiempo para atacar equipos con este tipo de IP, por lo que se vuelven menos seguras.
+						Además, su configuración debe ser manual y hay que pagar una cuota adicional para obtenerla.		
+					</blockquote>
+				</p>
+				<p>
+				<blockquote>
+				<b>Dinámicas:</b> Este tipo de dirección IP va cambiando cada vez que el dispositivo establece una conexión a internet,
+				y se llega a usar cuando los proveedores de Internet cuentan con más clientes que direcciones IP,
+				ya que es poco probable que todos ellos se conecten al mismo tiempo. 
+				Entre sus ventajas se encuentra un mayor nivel de seguridad y privacidad en la red, además de que su configuración es automática, sin embargo, la probabilidad de que la conexión se interrumpa es más elevada que en una IP fija.
+				</blockquote>
+				</p>
+				</blockquote>
+			<p>
+		<h2><b>MAC Address:</b></h2>
+			<blockquote>
+			La Mac Address o dirección Mac es una identificador único de 48 bits para identificar la totalidad de dispositivos de red como por ejemplo tarjetas de red Ethernet, 
+			de red wifi o inalambricas, Switch de red, Routers, impresoras, etc.
+
+			Las direcciones MAC son identificadores únicos a nivel mundial para cada dispositivo y por lo tanto es imposible encontrar 2 tarjetas de red o 2 dispositivos de red que tengan la misma Mac Address.
+			</blockquote>
+			
+			
+			</p>
+			<p>
+			* ISP
+			</p>
+			<p>
+			* Puertos bien conocidos
+			</p>
+			<p>
+			* Protocolo TCP/IP
+			</p>
+			<p>
+			* Puerta de Enlace
+			</p>
+			<p>
+			* Direcciones IP Publicas y Privadas 
+			</p>
+			<p>
+			* DNS 
+			</p>
+			<p>
+			* Firewall
+			</p>
+			<p>
+			* WebHosting y Dominio
+			</p>
+			<p>
+			* FTP
+			</p>
+			<p>
+			* HTML
+			</p>
+			<p>
+			* CSS 
+			</p>
+	</body>
+</html>
+ //bibliografias
+
+https://login.nexus.uanl.mx/App/Programa%20Analitico%20Nuevo%20Modelo/wfNuevoModelo.aspx
+https://www.comparahosting.com/p/que-es-una-direccion-ip/
+https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP

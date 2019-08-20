@@ -1,0 +1,122 @@
+﻿* Dirección IP:
+Las direcciones IP (IP es un acrónimo para Internet Protocol) son un número único e irrepetible con el cual se identifica una cmputadora conectada a una red que corre el protocolo IP. 
+
+* Tipos de Direcciones IP:
+Existen las privadas y las públicas
+
+    - Privadas:
+        Utilizada para identificar un dispositivo dentro de una red privada, por ejemplo, la que creas al conectar tu smartphone, la impresora, la tablet, y la laptop a una misma red de WiFi en tu hogar, o bien, las redes utilizadas a nivel empresarial.
+
+        - Clase A: De 10.0.0.0 a 10.255.255.255, que son utilizadas generalmente para grandes redes privadas, por ejemplo de alguna empresa trasnacional.
+
+        - Clase B: De 172.16.0.0 a 172.31.255.255, que son usadas para redes medianas, como de alguna empresa local, escuela o universidad.
+
+        - Clase C: 192.168.0.0 a 192.168.255.255, que son usadas para las redes más pequeñas, como redes domésticas.
+
+    - Publicas:
+
+        - Fijas: En este caso, la dirección IP asignada a un dispositivo será de por vida, es decir, jamás cambiará, y esto aplica tanto para direcciones IP públicas como privadas. A pesar de que son de mayor confianza y estabilidad, y te permiten una mayor velocidad de descarga, llegan a presentar ciertos inconvenientes, empezando por la vulnerabilidad. Al ser estáticas, los hackers tienen más tiempo para atacar equipos con este tipo de IP, por lo que se vuelven menos seguras. Además, su configuración debe ser manual y hay que pagar una cuota adicional para obtenerla. 
+
+        - Dinámicas: Este tipo de dirección IP va cambiando cada vez que el dispositivo establece una conexión a internet, y se llega a usar cuando los proveedores de Internet cuentan con más clientes que direcciones IP, ya que es poco probable que todos ellos se conecten al mismo tiempo. Entre sus ventajas se encuentra un mayor nivel de seguridad y privacidad en la red, además de que su configuración es automática, sin embargo, la probabilidad de que la conexión se interrumpa es más elevada que en una IP fija. 
+
+* MAC Address:
+La Mac Address o dirección Mac es una identificador único de 48 bits para identificar la totalidad de dispositivos de red como por ejemplo tarjetas de red Ethernet, de red wifi o inalambricas, Switch de red, Routers, impresoras, etc. Las direcciones MAC son identificadores únicos a nivel mundial para cada dispositivo y por lo tanto es imposible encontrar 2 tarjetas de red o 2 dispositivos de red que tengan la misma Mac Address. 
+
+* ISP
+Los proveedores de servicios de Internet (ISP, por sus siglas en inglés Internet Service Provider) son empresas que ofrecen distintos servicios de Internet a los clientes que estén interesados. Por lo general, los ISP ofrecen acceso individual o empresarial de Internet incluyendo teléfono, cuentas de correo electrónico y páginas web personales y personalizables. 
+
+* Puertos bien conocidos
+
+    HTTP: puerto 80;
+    HTTPS: puerto 443;
+    FTP: puerto 21;
+    FTPS/SSH: puerto 22;
+    POP3: puerto 110
+    POP3 SSL: puerto 995
+    IMAP: puerto 143
+    IMAP SSL: puerto 993
+    SMTP: puerto 25 (alternativas: puerto 26 / puerto 2525)
+    SMTP SSL: puerto 587
+    MySQL: puerto 3306
+    CPanel: puerto 2082
+    CPanel SSL: puerto 2083
+    WHM (Webhost Manager): puerto 2086
+    WHM (Webhost Manager) SSL: puerto 2087
+    Webmail: puerto 2095
+    Webmail SSL: puerto 2096
+    WebDAV/WebDisk: puerto 2077
+    WebDAV/WebDisk SSL: puerto 2078
+
+
+* Protocolo TCP/IP
+"TCP/IP" es el acrónimo que se utiliza comúnmente para el conjunto de protocolos de red que componen el conjunto de protocolos de Internet
+
+
+* Puerta de Enlace
+Un gateway (puerta de enlace) es un dispositivo, con frecuencia un ordenador, que permite interconectar redes con protocolos y arquitecturas diferentes a todos los niveles de comunicación. Su propósito es traducir la información del protocolo utilizado en una red al protocolo usado en la red de destino.
+
+* Direcciones IP Publicas y Privadas
+
+Rangos de IP(s) Privadas 
+10.0.0.0 a 10.255.255.255 (8 bits red, 24 bits hosts). 
+172.16.0.0 a 172.31.255.255 (12 bits red, 20 bits hosts). 16 redes clase B contiguas, uso en universidades y grandes compañías. 
+192.168.0.0 a 192.168.255.255 (16 bits red, 16 bits hosts). 256 redes clase C continuas, uso de compañías medias y pequeñas además de pequeños proveedores de internet (ISP). 
+Se llaman privadas o reservadas, ya que estos rangos se utilizan para conectar a varios computadores y/o dispositivos dentro de una LAN.
+
+Rango de IP(s) Públicas 
+Clase A 1.0.0.0 - 126.255.255.255 
+Clase B 128.0.0.0 - 191.255.255.255 
+Clase C 192.0.0.0 - 223.255.255.255 
+Son llamadas públicas ya que estas son las direcciones que se utilizan para viajar a través de internet, estas direcciones no se deben de poner en una computadora interna 
+ya que puede ocasionar conflictos al momento de comunicarse con el exterior. 
+
+* DNS
+
+Las DNS son las siglas que forman la denominación Domain Name System o Sistema de Nombres de Dominio y además de apuntar los dominios al servidor correspondiente, 
+nos servirá para traducir la dirección real, que es una relación numérica denominada IP, en el nombre del dominio.
+
+El servidor DNS es la tecnología que contiene bases de datos en las que se encuentran las direcciones IP y los nombres de dominio asociados a ellas. 
+En otras palabras, se dedica a traducir las direcciones o nombres alfanuméricos que tecleamos en nuestro buscador en direcciones IP, 
+de modo que se pueda localizar fácilmente el sitio web al que queremos acceder.
+
+
+* Firewall
+
+Un firewall es un dispositivo de seguridad de la red que monitorea el tráfico de red -entrante y saliente- y decide si permite o bloquea tráfico específico 
+en función de un conjunto definido de reglas de seguridad.
+
+
+
+* WebHosting y Dominio
+
+El Web Hosting, también conocido como Hospedaje Web, es el espacio en un servidor donde se almacenan o guardan todos los datos e información de un sitio de 
+Internet como: landing pages (páginas HTML), imágenes, videos, documentos, correos electrónicos o cualquier otro contenido.
+
+Dominio: Un dominio es el nombre único que identifica a un Sitio Web en Internet. Consiste de dos partes fundamentales: el nombre (pueden incluir números y guiones) y la extensión (o extensiones)
+
+* FTP
+
+FTP (File Transfer Protocol) es un protocolo de transferencia de archivos entre sistemas conectados a una red TCP basado en la arquitectura cliente-servidor, de manera que desde un equipo cliente 
+nos podemos conectar a un servidor para descargar archivos desde él o para enviarle nuestros propios archivos independientemente del sistema operativo utilizado en cada equipo.
+
+* HTML
+ Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código 
+(denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros
+
+* CSS
+
+Es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado
+Es muy usado para establecer el diseño visual de los documentos web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML,
+incluyendo XHTML, SVG, XUL, RSS, etcétera. 
+
+//bibliografias 
+https://login.nexus.uanl.mx/App/Programa%20Analitico%20Nuevo%20Modelo/wfNuevoModelo.aspx
+https://www.comparahosting.com/p/que-es-una-direccion-ip/ https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP 
+https://es.icannwiki.org/ISP
+https://docs.opencloud.cl/tutoriales/servidores/lista-de-puertos-mas-comunmente-utilizados.html
+https://docs.oracle.com/cd/E19957-01/820-2981/6nei0r0r9/index.html<Paste>
+https://www.puertadeenlace.com/faq/general/46-que-es-una-puerta-de-enlace-gateway
+https://www.comparahosting.com/p/que-significa-dns/
+https://www.cisco.com/c/es_mx/products/security/firewalls/what-is-a-firewall.html
+https://neubox.com/que-es-web-hosting?gclid=CjwKCAjwkenqBRBgEiwA-bZVtjcK75IYl9aSpaJa0hd2wKN6yoh-4aKr0W1xJlQmfFGPASlw-uitMRoCL7gQAvD_BwE
+https://goc.networktech.com.ar/knowledgebase/20/iQue-es-FTP.html

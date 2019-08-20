@@ -7,14 +7,24 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 index.html
+badd +0 practica1.txt
+badd +41 Practica\ 1.html
+badd +1 practica1.html
 badd +0 style.css
+badd +0 index.html
 argglobal
 silent! argdel *
-$argadd index.html
-set stal=2
-edit index.html
+$argadd practica1.txt
+edit style.css
 set splitbelow splitright
+wincmd _ | wincmd |
+split
+1wincmd k
+wincmd _ | wincmd |
+vsplit
+1wincmd h
+wincmd w
+wincmd w
 set nosplitbelow
 set nosplitright
 wincmd t
@@ -22,6 +32,7 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
+wincmd =
 argglobal
 setlocal fdm=manual
 setlocal fde=0
@@ -32,22 +43,15 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 25 - ((24 * winheight(0) + 19) / 39)
+let s:l = 77 - ((8 * winheight(0) + 10) / 20)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-25
-normal! 031|
-tabedit style.css
-set splitbelow splitright
-set nosplitbelow
-set nosplitright
-wincmd t
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
+77
+normal! 05|
+wincmd w
 argglobal
+if bufexists('index.html') | buffer index.html | else | edit index.html | endif
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -57,15 +61,34 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 54 - ((7 * winheight(0) + 19) / 39)
+let s:l = 57 - ((15 * winheight(0) + 10) / 20)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-54
+57
+normal! 026|
+wincmd w
+argglobal
+if bufexists('practica1.txt') | buffer practica1.txt | else | edit practica1.txt | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let s:l = 1 - ((0 * winheight(0) + 9) / 19)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+1
 normal! 0
-if has('nvim') | tcd ~/Documents/proweb/index | endif
+wincmd w
+2wincmd w
+wincmd =
 tabnext 1
-set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
 endif
