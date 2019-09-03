@@ -77,3 +77,11 @@ main {
 main>ul>li {
     margin: 20px 0;
 }
+
+p {
+    margin: 10px 0;
+}
+
+h3 {
+    margin-top: 50px;
+}
