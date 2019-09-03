@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Laboratorio de programación web</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" media="all">
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <nav>
+            <ul id="pr">
+                <a href="practica1.html">
+                    <li>Práctica #1</li>
+                </a>
+                <a href="practica2.html">
+                    <li>Práctica #2</li>
+                </a>
+                <a href="practica3.html">
+                    <li>Práctica #3</li>
+                </a>
+                <a href="practica4.html">
+                    <li>Práctica #4</li>
+                </a>
+                <a href="practica5.html">
+                    <li>Práctica #5</li>
+                </a>
+                <a href="practica6.html">
+                    <li>Práctica #6</li>
+                </a>
+            </ul>
+        </nav>
+
+        <h1 id="equipo-header">Equipo #15</h1>
+
+        <main>
+            <h1>Lección 1: Definición de HTML</h1>
+            <br />
+            <p>HTML5 es una combinación de nuevas etiquetas de markup (lenguaje) HTML, propiedades CSS3, JavaScript y algunas tecnologías complementarias de apoyo.</p>
+            <h3>La historia de HTML5</h3>
+            <p>HTML4, que se dio por cerrado en 1998, es el lenguaje de markup que conforma la base de la gran mayoría de las páginas web que podemos ver a día de hoy. Los diseñadores y desarrolladores web han estado utilizando la especificación HTML 4.01 durante bastantes años de manera satisfactoria, combinándola con CSS para la definición de estilos y con JavaScript para añadir interactividad a los contenidos.</p>
+            <p>Tras la finalización de HTML 4.0.1, el W3C continuó sus trabajos en consonancia con la evolución de la web, y comenzó con un lenguaje llamado XHTML 1.0. Existe una pequeña diferencia entre HTML 4.0.1 y XHTML 1.0.</p>
+            <p>En paralelo a la adopción y difusión de XHTML 1.0, se empezó con el desarrollo de otro lenguaje, XHTML 2.0, que añadía una serie de novedades de gran interés a las páginas web y que se apoyaba de forma notoria en XML. No obstante, este nuevo lenguaje adolecía de diversos problemas de tipo técnico y no resolvía adecuadamente las necesidades reales de los desarrolladores</p>
+            <p>Durante unos dos años y medio el W3C y el grupo WHATWG trabajaron en paralelo y de manera independiente hasta que en 2006, Tim Berners-Lee, creador de la World Wide Web y fundador del W3C anunció que el W3C y WHATWG trabajarían juntos en la elaboración del estándar; Como resultado de todo ello, se abandonó el desarrollo de XHTML 2.0 y la especificación HTML 4.0 se reformó con el nombre HTML5. No obstante, conviene recordar que HTML5 empezó siendo Web Applications 1.0.</p>
+            <h3>HTML5</h3>
+            <p>El lenguaje (o "markup") HTML5 incorpora algunas etiquetas nuevas pensadas para hacer que la estructura de la página web sea más lógica y funcional. Antes de HTML5, la estructura de una página dependía fuertemente de las etiquetas &lt;div&gt;, generalmente asociadas a una clase CSS o un ID. Por Ejemplo: &nbsp;&nbsp;&nbsp; &lt;div id="header" &gt; Esta es la cabecera &lt;/div&gt;</p>
+            <p>La especificación HTML5 incluye etiquetas que nos permiten integrar contenidos multimedia sin necesidad de complementos de navegador. Las etiquetas &lt;video&gt; y &lt;audio&gt; sirven para integrar video y audio en las páginas web de la misma forma que actualmente se hace con los archivos de imagen utilizando la etiqueta &lt;img&gt;. La etiqueta &lt;canvas&gt; dota al lenguaje HTML de un formato nativo para el dibujo y la animación. Esta etiqueta puede servir, además, como plataforma alternativa para los gráficos y animaciones que a día de hoy podemos ver en películas Flash. No obstante, existen inconvenientes de cierta consideración que es preciso resolver.</p>
+            <p>Los nuevos elementos de formulario de HTML, cuando se implementen, harán que el trabajo con formularios sea más sencillo que ahora</p>
+            <p>Se han definido unos cuantos tipos de datos nuevos para los formularios, como es el caso de email para las direcciones de correo, &nbsp;search para designar los campos de formulario que deben recibir términos de búsqueda, url para los campos de direcciones web y algunos más. Estos nuevos elementos de formulario web seguramente tardarán algo en integrarse en la especificación oficial, pero están diseñados de manera que puedan revertirse a campos genéricos de formulario, o dicho de otra forma, podemos empezar a&nbsp; utilizar estos nuevos tipos de campos y si un navegador no los soporta, los sustituirá internamente con elementos genéricos (soportados).</p>
+            <p>Aparte de los nuevos elementos &lt;video&gt;, &lt;audio&gt;, &lt;canvas&gt;, y tipos de datos de formulario, hay otros nuevos elementos dentro de HTML5 que podemos utilizar, como &lt;figure&gt; y &lt;figurecaption&gt;, que se emplean para etiquetar imágenes dentro de la página web, el elemento &lt;hgroup&gt; para agrupar una serie de elementos de cabecera dentro de una sección lógica, etc. HTML5 además resuelve el caso de ciertas etiquetas que aparecen en HTML 4.01 pero que han quedado obsoletas o necesitaban ciertas precisiones, como ocurre con &lt;i&gt;, &lt;b&gt;, &lt;small&gt;, &lt;strong&gt; y &lt;abbr&gt;, que ahora tienen significados y usos nuevos con HTML5.</p>
+            <h3>Elementos &lt;video&gt; y &lt;audio&gt; para incorporar contenidos multimedia</h3>
+            <p>La estructura necesaria para incorporar contenidos de audio o vídeo a una página web es bastante sencilla, como podemos ver en el siguiente ejemplo donde añadimos un archivo de vídeo:</p>
+            <p>&lt;video src="catz.mp4" width="400" height="300"&gt;&lt;/video&gt;</p>
+            <p>Insertar un archivo de audio mp3 en la página se hace de forma similar. En el caso del audio y el vídeo podemos añadirle también controles de reproducción y la posibilidad de precarga, utilizando los atributos controls, preload, y autobuffer:</p>
+            <p>&lt;audio src="high_seas_rip.mp3" controls preload="auto" autobuffer&gt;&lt;/audio&gt;&nbsp;</p>
+            <h3>El elemento &lt;canvas&gt; para dibujo y animación</h3>
+            <p>El elemento canvas funciona a modo de superficie de dibujo dentro de una página web (de ahí le viene el nombre). Dentro de esta superficie de dibujo podemos crear formas con colores, gradientes y patrones de relleno. Podemos manipular los pixels de forma interactiva en pantalla, mostrar textos y exportar los contenidos hacia archivos de imagen estática, como .PNG. Podemos también utilizar JavaScript o las nuevas funciones de animación de CSS3 para que los objetos que creamos puedan moverse, desaparecer, cambiar de tamaño, etc. Incorporar un elemento canvas a una página es muy sencillo:</p>
+            <p>&lt;canvas id="myCanvas"&gt;&lt;/canvas&gt;</p>
+            <p>JavaScript se encarga de todo el trabajo y nos ofrece un contexto para el objeto creado. Por ejemplo, para crear uno de los objetos más sencillos dentro del canvas, un rectángulo negro, el código necesario puede ser como este:</p>
+            <p>&lt;script&gt;
+            <br />&nbsp;&nbsp;&nbsp; var canvas = document.getElementById ("myCanvas"),
+            <br />&nbsp;&nbsp;&nbsp;&nbsp; context = canvas.getContext("2d");
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // x = 10, y = 20, width = 200, height = 100
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; context.fillRect(10, 20, 200, 100);
+            <br />&nbsp;&nbsp;&nbsp; &lt;/script&gt;</p>
+            <p>Con estas pocas líneas creamos un rectángulo de color negro con unas dimensiones concretas.</p>
+            <h3>Formularios web</h3>
+            <p>Los nuevos elementos de formulario de HTML, cuando se implementen, harán que el trabajo con formularios sea más sencillo que ahora. Por ejemplo, muchos diseñadores web necesitan crear formularios en donde los datos tienen que comprobarse antes de enviarlos al servidor. Es casi obligado que el usuario, por ejemplo, tenga que escribir una dirección de correo electrónico en un campo de un formulario. A día de hoy, para validar este dato se necesita programación en&nbsp; Javascript o cualquier otro lenguaje de scripting, pero HTML5 incorpora el atributo required a la lista de tipos de datos de entrada utilizables en formularios, como se muestra en este ejemplo:</p>
+            <p>&lt;input type="email" required&gt;</p>
+            <p>Se han definido unos cuantos tipos de datos nuevos para los formularios, como es el caso de email para las direcciones de correo, &nbsp;search para designar los campos de formulario que deben recibir términos de búsqueda, url para los campos de direcciones web y algunos más.</p>
+            <h3>Introducción a las APIs de HTML5 y las tecnologías de apoyo</h3>
+            <p>Existen otra serie de tecnologías de desarrollo web vinculadas con la especificación HTML5 o con su sintaxis. Estas técnicas nos van a permitir llevar a cabo actividades desde el navegador web y dispositivos móviles compatibles que no eran posibles con las versiones anteriores de HTML.</p>
+            <p>Las APIs (Application Programming Interfaces o, en español, Interfaces de Programación de Aplicaciones o simplemente "interfaces de programación") son una forma de crear aplicaciones utilizando componentes preconfigurados cuyo uso no se restringe a la web, ni siquiera a los lenguajes de scripting. Sitios web como Twitter o YouTube entre otros, ofrecen APIs al público de manera que los diseñadores y desarrolladores pueden con ellas integrar algunas de sus funcionalidades dentro de sus propios sitios web (y también sirven para otros fines, como por ejemplo para crear aplicaciones para teléfonos móviles o aplicaciones personalizadas para equipos de escritorio). Uno de los objetivos principales de una API es el de normalizar el modo de trabajo de ciertos mecanismos y simplificar tareas de programación, que de lo contrario, serían bastante complejas. Las APIs son un aspecto muy importante dentro del entorno de HTML5 y hay una serie de ellas que conviene conocer, como Web Storage, Microdata o Geolocation, entre otras.</p>
+            <p>Para utilizarlas, lo primero que tenemos que saber es que la documentación oficial de estas APIs es independiente de la documentación oficial de HTML5.</p>
+            <h3>Web Workers</h3>
+            <p>Web Workers es otra API que se suele considerar de la familia HTML5. Web Workers es un marco de programación que resuelve problemas de rendimiento de los navegadores. Al acceder a aplicaciones web avanzadas, como las de mapas o aquellas que generan gráficos o diagramas al entrar en la página web, se inician ciertas operaciones de computación que consumen una gran cantidad de recursos de procesador y que pueden reducir notablemente el rendimiento de la aplicación. Gran parte de la ralentización es debida a que se produce un conflicto a nivel de máquina entre las tareas interactivas de usuario (pulsación del ratón, arrastre, etc.) y la necesidad de la propia aplicación de acceder a recursos como datos, tarjeta gráfica u otros.</p>
+            <p>Los Web Workers son scripts que se ejecutan en threads independientes. Esto quiere decir que ciertos procesos como puede ser obtener datos desde una base de datos, se ejecutan de forma independiente de las actividades que desarrolle el usuario, lo que da como resultado un entorno mucho más fluido para éste.</p>
+            <h3>Almacenamiento Web</h3>
+            <p>El Almacenamiento Web (Web Storage) es un ejemplo de uso de modelos preexistentes de tecnologías web bajo nuevas modalidades, más potentes. El Web Storage mejora el concepto de cookies del navegador. Actualmente las cookies permiten que los sitios web puedan guardar información en cantidades muy reducidas en los equipos de los usuarios, datos que normalmente sirven para volver a utilizarlos en momentos posteriores, y de esta manera, por ejemplo, ciertos sitios web recuerdan la información del usuario desde el último acceso.</p>
+            <p>Las cookies son una tecnología bastante limitada y no resulta fácil su utilización por parte de los diseñadores web. Ahora, Web Storage actualiza este modelo para que las aplicaciones web puedan almacenar una cantidad de datos muy superior y que su acceso y utilización sea mucho más fácil y eficiente.</p>
+            <p>HTML5 nos ofrece dos maneras de guardar datos: localStorage y sessionStorage. Los datos guardados con localStorage quedan a disposición del navegador en todo momento, aunque cerremos el programa o se reinicie el sistema. Los datos guardados bajo la modalidad &nbsp;sessionStorage se pierden al cerrar el navegador.</p>
+            <h3>¿Quién utiliza HTML5 a día de hoy?</h3>
+            <p>Un área donde el uso de las funcionalidades de HTML5 está siendo muy activo es entre los dispositivos móviles y smartphones. En este mundo podemos encontrar aplicaciones web que aprovechan las ventajas de los nuevos tags de Video o Audio, puesto que ciertos dispositivos como Windows Phone o iPhone soportan HTML5 pero no soportan complementos como Flash o Silverlight.</p>
+            <p>Todos los navegadores web de mayor difusión apuestan por HTML5 en sus últimas versiones y si aprendes hoy sus secretos, podrás formar parte activa de una nueva era que ahora comienza para la Web, llena de interés y asombrosas novedades.</p>
+            <br/>
+            <br/>
+            <h4>Conclusiones</h4>
+            <ul>
+                <li>Jorge Rivera Gómez: En esta practica aprendí algunas indicaciones de HTML y CSS cuales son sus funciones y por que esta diseñado de esa manera cual es la importancia de tener primero una estructura y como diseñarla, cual es la función de un dominio y host y su importancia y como es que utilizamos esas herramientas todos los días sin darnos cuenta, aprendí cuales son las partes claves e importantes para poder tener nuestra propia pagina web y tenga un buen funcionamiento para un usuario.</li>
+                <li>Raul Alejandro Castillo Medina: Mis compañeros y yo aprendimos bastante de esta practica,
+                    desde el nivel mas basico de comandos de html y como hacer nuestra primera pagina web, adentrarnos en 
+                    el mundo de rentar un servidor para colgar nuestra pagina y experimentar como otras personas con internet puedan acceder desde cualquier computadora o dispositivo movil que hoy en dia es bastante importante ya que la mayoria de las comunicaciones son por estos medios, otra parte importante de hacerlo de esta manera es aprender a diseñar en el modo visual la pagina y ajustar detalles que nos parecian debian verse mejor e ir perfeccionando la pagina.
+                    Reforzamos lo aprendido en el nivel mas basico de programación web lo que se ve en clase y eso es importante para en un futuro tener un conocimiento solido de cosas orientadas completamente a nuestra carrera profesional.</li>
+                <li>Ulises Baltazar Garza Garcia: Hay demaciados conseptos que se relacionan con las paginas webs y la mayoria no los conocemos, o no saviamos que se relacionavan, igual al programar la pagina recorde lo tedioso que puede ser darle diseño a la misma y asegurar que todo quede en perfecto estado y prestarle mas tencion a la profindidad de las cosas para darnos cuenta su totalidad de los tenas que engloba</li>
+                <li>Juan Amaya Conclusión: Gracias a esta investigación se logro ver cosas las cuales hacemos día a día pero no le damos importancia, por ejemplo, la IP que se genera en nuestro  dispositivo al momento de ingresar al Internet, analizar el proceso que hay al hacer una pagina web, iniciando desde crear una estructura,luego darle un buen diseño, obtener un webhosting para que el sitio tenga un espacio en el Internet, tener tu dominio representativo, darle mantenimiento a tu sitio de inconvenientes que puedan percatarse, todo esto para ofrecer una buena pagina a tus usuarios.</li>
+                <li>Emilio González Rodríguez: Los conceptos investigados en esta actividad, por lo que aprendí, son conceptos fundamentales en el desarrollo de páginas web y cada uno forma parte de un proceso diferente. Pude ver entender como se relacionan conceptos que ya conocía como las direcciones IP con los web hosting y cómo estos últimos funcionan. También como algo que tomamos parece muy simple como las URL, tienen detrás todo un sistema que se ejecuta en milisegundos cada vez que ingresamos a una, el cual es el DNS. Y pude ver que papel tienen los puertos 80 y 443, y como el puerto 443 se encarga del HTTPS el cuál es más seguro que HTTP. Todo esto ocurre cada vez que visitamos una página web y es muy interesante saber que hay mucho detrás para que el internet funcione como lo conocemos.</li>
+            </ul>
+            <br/>
+            <h4>Referencias</h4>
+            <ul>
+                <li><p><a href="https://login.nexus.uanl.mx/App/Programa%20Analitico%20Nuevo%20Modelo/wfNuevoModelo.aspx">https://login.nexus.uanl.mx/App/Programa%20Analitico%20Nuevo%20Modelo/wfNuevoModelo.aspx</a></p>
+                </li>
+                <li><p><a href="https://www.comparahosting.com/p/que-es-una-direccion-ip/">https://www.comparahosting.com/p/que-es-una-direccion-ip/</a> <a href="https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP">https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP</a> </p>
+                </li>
+                <li><p><a href="https://es.icannwiki.org/ISP">https://es.icannwiki.org/ISP</a></p>
+                </li>
+                <li><p><a href="https://docs.opencloud.cl/tutoriales/servidores/lista-de-puertos-mas-comunmente-utilizados.html">https://docs.opencloud.cl/tutoriales/servidores/lista-de-puertos-mas-comunmente-utilizados.html</a></p>
+                </li>
+                <li><p><a href="https://docs.oracle.com/cd/E19957-01/820-2981/6nei0r0r9/index.html">https://docs.oracle.com/cd/E19957-01/820-2981/6nei0r0r9/index.html</a></p>
+                </li>
+                <li><p><a href="https://www.puertadeenlace.com/faq/general/46-que-es-una-puerta-de-enlace-gateway">https://www.puertadeenlace.com/faq/general/46-que-es-una-puerta-de-enlace-gateway</a></p>
+                </li>
+                <li><p><a href="https://www.comparahosting.com/p/que-significa-dns/">https://www.comparahosting.com/p/que-significa-dns/</a></p>
+                </li>
+                <li><p><a href="https://www.cisco.com/c/es_mx/products/security/firewalls/what-is-a-firewall.html">https://www.cisco.com/c/es_mx/products/security/firewalls/what-is-a-firewall.html</a></p>
+                </li>
+                <li><p><a href="https://neubox.com/que-es-web-hosting?gclid=CjwKCAjwkenqBRBgEiwA-bZVtjcK75IYl9aSpaJa0hd2wKN6yoh-4aKr0W1xJlQmfFGPASlw-uitMRoCL7gQAvD_BwE">https://neubox.com/que-es-web-hosting?gclid=CjwKCAjwkenqBRBgEiwA-bZVtjcK75IYl9aSpaJa0hd2wKN6yoh-4aKr0W1xJlQmfFGPASlw-uitMRoCL7gQAvD_BwE</a></p>
+                </li>
+                <li><p><a href="https://goc.networktech.com.ar/knowledgebase/20/iQue-es-FTP.html">https://goc.networktech.com.ar/knowledgebase/20/iQue-es-FTP.html</a></p>
+                </li>
+            </ul>
+        </main>
+
+    </body>
+
+</html>
