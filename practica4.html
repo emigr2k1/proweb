@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Laboratorio de programación web</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" media="all">
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <nav>
+            <ul id="pr">
+                <a href="practica1.html">
+                    <li>Práctica #1</li>
+                </a>
+                <a href="practica2.html">
+                    <li>Práctica #2</li>
+                </a>
+                <a href="practica3.html">
+                    <li>Práctica #3</li>
+                </a>
+                <a href="practica4.html">
+                    <li>Práctica #4</li>
+                </a>
+                <a href="practica5.html">
+                    <li>Práctica #5</li>
+                </a>
+                <a href="practica6.html">
+                    <li>Práctica #6</li>
+                </a>
+            </ul>
+        </nav>
+
+        <h1 id="equipo-header">Equipo #15</h1>
+
+        <main>
+            <h2 id="leccioacuten2conceptosbaacutesicosdehtmlxhtmlycss">Lecci&oacute;n 2: Conceptos b&aacute;sicos de HTML, XHTML y CSS</h2>
+
+            <p>La estructura de la p&aacute;gina web se basa en HTML
+            Los documentos de HTML tienen la extension ,htm o .html, esta extensi&oacute;n avisa al navegador web ya sea de una computadora o de un dispositivo movil que el 
+            archivo es HTML y este se muestra en la ventana del navegador siguiendo las reglas del lenguaje HTML.</p>
+
+            <p>HTML hace uso de etiquetas para definir el contenido con el que trabaja, las etiquetas estan dentro del &uml;menor que&uml; (&lt;) y el &uml;mayor que&uml; (&gt;) por ejemplo
+            &lt;p&gt;&lt;/p&gt;, estas no se ven en el navegador pero dentro de &eacute;l le da la propiedad de parrafo a lo que este dentro de las etiquetas.</p>
+
+            <p>Detalles de la sintaxis de XHTML
+            Las paginas en XHTML y HTML tienen los mismos atribuos y etiquetas pero tienen una diferencia importante el cual es que la sintaxis del c&oacute;digo en XHTML es 
+            m&aacute;s estricta, por ejemplo:
+            -Las eqtiquetas en XHTML deben escribirse en minusculas.
+            -Todas las etiquetas que se abran deben de cerrarse obligatoriamente.
+            -El anidamiento en las etiquetas tiene ciertas reglas, por ejemplo, el &lt;em&gt; debe abrirse despes del &lt;h1&gt; y cerrarse antes del &lt;/h1&gt;</p>
+
+            <p>Doctype indica al navegador qu&eacute; debe de esperar
+            En toda pagina web debe tener al principio declarado el Doctype, ya que le aporta pistas al navegador sobre el tipo de informacion que va a haber en el
+            p&aacute;gina, debido a que HTML y XHTML son diferentes el navegador necesita saber cual es el lenguaje que va a interpretar, el navegador lee la p&aacute;gina desde 
+            el principio, asi hasta el final, se escribe de esta manera:
+            &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt; </p>
+
+            <p>El W3C y la validaci&oacute;n de la pagina
+            W3C es la abreviatura de World Wide Web Consortium, el cual es una organizacion que busca orientar la evoluci&oacute;n de la Web, esta ofrece reglas y directrices
+            para especificaciones como HTML y XHTML.
+            Para poder verifica la validez del codigo HTML o XHTML se puede usar el servicio online gratuito que ofrecen.</p>
+
+            <p>Estructura HTML
+            En HTML la estructura que se presenta es anidada, los contenidos estan unos dentros de otro, por ejemplo:
+            &lt;html&gt; 
+                 &lt;body&gt; 
+                      &lt;/body&gt; 
+                      &lt;/html&gt;
+                      El elemento body esta dentro del elemeno html, este se abre dentro del html y se cierra antes, estos elementos son la base para toda pagina web.
+                      Lo que se encuentra dentro del body es el contenido el cual va a ser visible para los usuarios, hay otras partes las cuales son ocultas por ejemplo el script 
+                      el cual permite darle interatividad a la p&aacute;gina o tambi&eacute;n el c&oacute;digo que permite darle estilo a la p&aacute;gina, estos comunmente van dentro del &lt;head&gt;, el cual esta
+                      dentro del &lt;html&gt;.</p>
+
+            <p>Insertar im&aacute;genes en HTML
+            Se hace uso de una etiqueta para poder poner una imagen en HTML la cual es &lt;img&gt;, esta en s&iacute; no hace nada todo depende del valor que le demos a los atributos,
+            los cuales indican que imagen mostrar y como se debe hacer, ejemplo:
+            &lt;img src=&quot;images/familysitting.jpg&quot; /&gt;</p>
+
+            <p>El papel de CSS
+            CSS son las siglas de Cascading Style Sheets, estas tienen un lenguaje diferentes a HTML y nos permiten aplicarle estilos a los diferentes elementos que tengamos
+            en la p&aacute;gina web, haciendo que todos los t&iacute;tulos, listas, parrafos, etc. puedan verse igual en todas las p&aacute;ginas que tengamos.</p>
+
+            <p>Los estilos de clase y el elemento &lt;span&gt;
+            Los selectores de etiqueta son muy usados frecuentemente pero solo se pueden aplicar a los elementos HTML, pero cuando queremos modificar el estilo de algo que no
+            coincida con un etiqueta, por ejemplo cambiar solo una palabra de un p&aacute;rrafo, no son de mucha ayuda los selectores de etiqueta, lo que se utiliza son los selectores
+            de clase, la cual es una regla CSS que puede aplicarse a cualquier elemento dentro de la p&aacute;gina, estos tienen la opcion de poner nombres flexibles pero es 
+            recomendable usar nombres los cuales describan bien lo que hacen.</p>
+
+            <p>Tres maneras de utilizar estilos
+            Hay tres maneras diferentes de incorporar los estilos CSS a la p&aacute;gina, los cuales son:
+            Hoja de estilos interna: Este es cuando especificas los estilos dentro del &lt;head&gt;.</p>
+
+            <p>Hoja de estilo externa: Es un documento que esta fuera del HTML el cual tiene una extensi&oacute;n .css, para que pueda aplicarse a la p&aacute;gina se le debe de poner un enlace al
+            archivo dentro del &lt;head&gt; del HTML.</p>
+
+            <p>Estilos inline o directos: Las reglas se declaran dentro de las etiquetas de HTML por lo cual son las menos usadas.</p>
+
+            <p>Cu&aacute;ndo utilizar hojas de estilo internas y externas
+            Cuando tienes muchas p&aacute;ginas en tu sitio web es recomendable el usar un estilo de hoja externa para as&iacute; tener todas las p&aacute;ginas con un mismo orden y cuando decidas cambiar
+            algo solo vas a ese archivo, lo modificas y automaticamente modifica todas las p&aacute;ginas.</p>
+
+            <p>Creaci&oacute;n de una hoja de estilos externa
+            Las p&aacute;ginas HTML no tienen por que l&iacute;mitarse a usar solamente una hoja de etilos externa, se pueden tener varias, ya sea para cuando se va a imprimir una pagina o para 
+            poder ver la p&aacute;gina de manera perfecta en los dispositivos m&oacute;viles.</p>
+
+            <p>Uso de textos y tipos de letra en la web
+            Cuando se dise&ntilde;a una p&aacute;gnina web se puede cambiar el estilo de texto que tiene por defecto el navegador, pero el usuario debe de tener descargada esa fuente, si no la tiene
+            el navegador le pondra otra, una solucion para eso es el &uml;font-family&uml; en el cual pones una lista de las fuentes de letra que quieres que se visualicen y el navegador 
+            selecciona una el cual usario tenga descargada.</p>
+
+            <p>Tambien se le puede cambiar el tama&ntilde;o al texto gracia a CSS con la propiedad &uml;font-size&uml; el cual se puede cambiar el valor de diferentes maneras:
+            -Tama&ntilde;o absoluto: Son palabras las cuales tienen tama&ntilde;os ya predefinidos, po ejemplo, xx-small, medium,x-large, etc.</p>
+
+            <p>-Longitud: En este puedes indicar un sistema de medida ya sea cm, mm, in, pt o pc) o tambien las unidades relativas (em, ex o px)</p>
+
+            <p>-Porcentaje: Poner un numero seguido del porcentaje (%), da un valor porciento del tama&ntilde;o de letra del objeto padre.</p>
+
+            <p>-Tama&ntilde;o relativo: Usa palabras las cuales son relativas al tama&ntilde;o de letra del objeto padre, ejemplo, larger y smaller.</p>
+
+            <h3 id="iquestqueacuteesunxmlyparaqueacutesirve">&iquest;Qu&eacute; es un XML y para qu&eacute; sirve?</h3>
+
+            <p>XML son las iniciales de eXtensible Marup Language.</p>
+
+            <p>XML fue dise&ntilde;ado para almacenar y transportar informaci&oacute;n.</p>
+
+            <p>XML fue dise&ntilde;ado para ser ambos le&iacute;bles por humanos y por m&aacute;quinas.</p>
+
+            <h3 id="iquestqueacutecaracteriacutesticastieneundocumentohtml">&iquest;Qu&eacute; caracter&iacute;sticas tiene un documento HTML?</h3>
+
+            <p>Un documento HTML empieza declarando el DOCTYPE: &lt;!DOCTYPE html&gt;</p>
+
+            <p>La estructura b&aacute;sica de un document HTML es: &lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</p>
+
+            <p>HTML permite incrustar CSS y JavaScript dentro del documento HTML. El contenido de estos deber&aacute; ser insertado dentro de las etiquetas &lt;style&gt; y &lt;script&gt; respectivamente.</p>
+
+            <p>La &uacute;ltima versi&oacute;n de HTML es HTML5 y todas las futuras actualizaciones ser&aacute;n en esta misma versi&oacute;n.</p>
+
+            <p>HTML permite utilizar diferentes etiquetas dependiendo del contexto como &lt;article&gt;, &lt;aside&gt;, &lt;header&gt;, &lt;footer&gt;, &lt;form&gt;, etc.</p>
+
+            <h3 id="iquestqueesyparaquesirveunarchivoxhtml">&iquest;Que es y para que sirve un archivo XHTML?</h3>
+
+            <ul>
+                <li>XHTML (Extensible Hypertext Markup Language) *</li>
+            </ul>
+
+            <p>Est&aacute; basado en HTML 4.01, pero sus reglas son mucho m&aacute;s estrictas y vers&aacute;tiles que HTML. XHTML se utiliza para marcar contenido como texto, im&aacute;genes y enlaces en forma de hiperv&iacute;nculos para crear una cierta estructura que puede ser mostrada por los navegadores. Los documentos pueden ser estructurados con XHTML para hacerlos legibles para un analizador. El analizador interpreta los elementos de marcado especificados en las definiciones del lenguaje XHTML y reproduce el contenido de estos elementos de una manera espec&iacute;fica.
+            Las diferencias importantes entre XHTML y HTML son, por ejemplo, la declaraci&oacute;n XML, la definici&oacute;n del tipo de documento, que est&aacute; en min&uacute;sculas, la conformidad exacta con el marco b&aacute;sico y el hecho de que cada elemento abierto debe cerrarse de nuevo. Si una de estas reglas no se adhiere en XHTML, el navegador no puede mostrar el documento, lo que probablemente pueda hacer con HTML.</p>
+
+            <h3 id="conclusiones">Conclusiones</h3>
+
+            <p>Raul Alejandro Castillo Medina: Me gusto esta practica ya que entendimos la diferencia entra XHTML Y HTML, porque al menos en mi parte pense que no tenia nada que ver pero es casi los mismos comandos que se usan en el que ya sabemos, con la unica diferencia que XHTML, usa comandos mas estrictos y un poco mas complejos, pero mas eficasez a mi punto de vista, nos ayudo a fortalecer nuestras bases en lo que sabemos en cuanto a programacion web y lo que vamos a seguir aprendiendo.</p>
+
+            <p>Juan Pablo Amaya Garc&iacute;a: XHTML y HTML son herramientas que nos sirven para poder programas p&aacute;ginas web, pero estas tienen una diferencia la cual es que XHTML tiene una sintaxis mas estricta, pero en s&iacute; comparten las mismas etiquetas y atributos, sus contenidos est&aacute;n dentro de otros dando as&iacute; su estructura anidada y para poder darle un cambio a la p&aacute;gina, darle color , darle forma, se usa CSS el cual le puedes indicar a las etiquetas que usas gran variedad de cosas, si es un p&aacute;rrafo le puedes dar el tama&ntilde;o, tipo de letra, color, etc., si es una imagen le puedes cambiar el ancho, el alto, etc., es de gran facilidad ya que puedes hacer que de una sola hoja de estilo cambien el estilo a muchas p&aacute;ginas.</p>
+
+            <p>Emilio Gonz&aacute;lez Rodr&iacute;guez: Aunque XHTML ya no sea usado en la industria moderna, dej&oacute; informaci&oacute;n de la cual a&uacute;n se puede aprender. Personalmente, prefieroHTML5 ya qu&eacute; XHTML se sent&iacute;a una mezcla extra&ntilde;a entre dos lenguajes de marcado. En cuanto a la introducci&oacute;n a CSS creo que es un gran paso para empezar a desarrollar p&aacute;ginas web. La est&eacute;tica es uno de los puntos m&aacute;s importantes desde la perspectiva del usuario y esta afecta tambi&eacute;n a la experiencia y usabilidad de la p&aacute;gina web. Tambi&eacute;n es necesario aprender los estilos que algunos elementos implementan por defecto.</p>
+
+            <p>
+            Jorge Rivera Gomez: Aprendí cuales son algunos comandos que son básicos para el diseño de una pagina web con CSS, algunas reglas para darle mejor diseño, algunas propiedades que puede adoptar, como se estructura una pagina al momento de verla en la pantalla y cuales son algunas formas o diseños que se pueden implementar y cuales son sus caracteristricas. Cuales son las diferencias entre un XML, HTML y XHTML, cual se puede utilizar de acuerdo para las necesidades que se requieran cumplir y cual es la sintaxis de cada uno de ellos.
+
+            </p>
+		</main>
+
+    </body>
+
+</html>
