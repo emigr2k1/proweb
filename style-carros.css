@@ -99,6 +99,10 @@ aside video {
     width: 100%;
 }
 
+aside h4, .media {
+    margin: 10px 0;
+}
+
 footer {
     width: 100%;
     background-color: #bf2217;
