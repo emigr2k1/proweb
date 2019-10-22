@@ -7,16 +7,16 @@ let intervaloJuego = window.setInterval(function() {
         window.setTimeout(function() {
             objetivos[index].style.backgroundImage = "";
         objetivos[index].setAttribute("data-malo", "0");
-        }, Math.random() * 800 + 500);
+        }, Math.random() * 600 + 250);
     } else {
         objetivos[index].style.backgroundImage = "url('https://i.pinimg.com/originals/e9/3f/d6/e93fd6eb20511add0373d0b0f88800de.png')";
         objetivos[index].setAttribute("data-bueno", "1");
         window.setTimeout(function() {
             objetivos[index].style.backgroundImage = "";
         objetivos[index].setAttribute("data-bueno", "0");
-        }, Math.random() * 800 + 500);
+        }, Math.random() * 600 + 250);
     }
-}, Math.random() * 1000 + 700);
+}, Math.random() * 800 + 400);
 
 let puntos = 0;
 let puntuacion = document.getElementById("puntuacion");
