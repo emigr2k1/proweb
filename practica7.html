@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Laboratorio de programación web</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" media="all">
+        <link rel="stylesheet" href="juego-style.css" media="all">
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <nav>
+            <ul id="pr">
+                <a href="practica1.html">
+                    <li>Práctica #1</li>
+                </a>
+                <a href="practica2.html">
+                    <li>Práctica #2</li>
+                </a>
+                <a href="practica3.html">
+                    <li>Práctica #3</li>
+                </a>
+                <a href="practica4.html">
+                    <li>Práctica #4</li>
+                </a>
+                <a href="practica5.html">
+                    <li>Práctica #5</li>
+                </a>
+                <a href="practica6.html">
+                    <li>Práctica #6</li>
+                </a>
+                <a href="practica7.html">
+                    <li>Práctica #7</li>
+                </a>
+            </ul>
+        </nav>
+
+        <h1 id="equipo-header">Equipo #15</h1>
+
+        <main>
+            <p>
+                Instrucciones: Tu deber es matar a los
+                goombas, utilizando la mira de la
+                derecha. Para utilizar esta mira,
+                deberás arrastrarla y soltarla en el
+                recuadro donde quieres disparar.
+            </p>
+            <p>
+                Por cada goomba asesinado, ganarás 1
+                punto. Si disparas al aire, perderás 1
+                punto. Pero cuidado, ya que en
+                ocasiones Mario se pone en el camino y
+                si lo asesinas pierdes 5 puntos.
+            </p>
+            <p>
+                Ganas cuando obtienes 10 puntos, y
+                pierdes si tienes -10 puntos.
+            </p>
+
+            <p id="puntacion-contenedor">
+                Puntos: <span id="puntuacion">0</span>
+            </p>
+
+            <div id="juego-terminado">
+                <span id="texto-final"></span>. <button id="jugar-otra-vez">Jugar otra vez</button>
+            </div>
+
+            <div id="juego">
+                <div class="objetivos">
+                    <div class="objetivo">
+                        <div class="capa"></div>
+                    </div>
+                    <div class="objetivo">
+                        <div class="capa"></div>
+                    </div>
+                    <div class="objetivo">
+                        <div class="capa"></div>
+                    </div>
+                    <div class="objetivo">
+                        <div class="capa"></div>
+                    </div>
+                    <div class="objetivo">
+                        <div class="capa"></div>
+                    </div>
+                    <div class="objetivo">
+                        <div class="capa"></div>
+                    </div>
+                    <div class="objetivo">
+                        <div class="capa"></div>
+                    </div>
+                    <div class="objetivo">
+                        <div class="capa"></div>
+                    </div>
+                    <div class="objetivo">
+                        <div class="capa"></div>
+                    </div>
+                </div>
+
+                <div id="selector" draggable="true"></div>
+            </div>
+
+            <h4>Conclusiones</h4>
+            <ul>
+               <li>
+                   Emilio González Rodríguez: En esta práctica utilizamos el elemento canvas para poder dibujar contenido dinámico en la página web. El elemento canvas provee funciones de javascript para dibujar en un lienzo. Es muy interesante ver que los desarrolladores tienen acceso a estas funciones, pues permiten crear aplicaciones dinámicas en lugar de utilizas elementos HTML estaticos. 
+               </li> 
+            </ul>
+        </main>
+
+        <script src="draggable.js">
+        </script>
+
+    </body>
+
+</html>

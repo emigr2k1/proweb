@@ -1,0 +1,40 @@
+#juego {
+    display: flex;
+}
+
+#selector {
+    width: 100px;
+    height: 100px;
+    background-image: url('http://pngriver.com/wp-content/uploads/2017/12/transparent-target-aim-png-image.png');
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.objetivos {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.objetivo {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    background-size: cover;
+    margin: 20px;
+}
+
+.capa {
+    width: 100%;
+    height: 100%;
+}
+
+#juego-terminado {
+    display: none;
+}
+
+#jugar-otra-vez {
+    color: #000;
+}
